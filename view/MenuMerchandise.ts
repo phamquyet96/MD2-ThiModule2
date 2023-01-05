@@ -58,7 +58,6 @@ export class MenuMerchandise{
                 case 5:
                     let Codee=+readlineSync.question("Nhap ma hang muon xoa: ");
                     this.menuMerchandise.deleteCode(Codee);
-                    console.log("Xoa thanh cong")
                     break;
                 case 6:
                     return;

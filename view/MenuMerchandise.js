@@ -55,7 +55,6 @@ var MenuMerchandise = /** @class */ (function () {
                 case 5:
                     var Codee = +readlineSync.question("Nhap ma hang muon xoa: ");
                     this.menuMerchandise.deleteCode(Codee);
-                    console.log("Xoa thanh cong");
                     break;
                 case 6:
                     return;
