@@ -6,11 +6,11 @@ var ManagerMerchandise = /** @class */ (function () {
     function ManagerMerchandise() {
         this.result = [];
         this.listMerchandise = [];
-        this.listMerchandise.push(new Merchandise_1.Merchandise(1, "mi tom", "do an", 1000, 100, 2023, "an song"));
-        this.listMerchandise.push(new Merchandise_1.Merchandise(2, "mi lanh", "do an", 2000, 200, 2023, "an chin"));
-        this.listMerchandise.push(new Merchandise_1.Merchandise(3, "sting", "nuoc", 3000, 300, 2023, "do uong"));
-        this.listMerchandise.push(new Merchandise_1.Merchandise(4, "coca", "nuoc", 4000, 400, 2023, "nuoc uong"));
-        this.listMerchandise.push(new Merchandise_1.Merchandise(5, "sprite", "nuoc", 5000, 500, 2023, "nuoc uong"));
+        this.listMerchandise.push(new Merchandise_1.Merchandise(1, "mi tom", "do an", 1000, 100, 5 / 1 / 2023, "an song"));
+        this.listMerchandise.push(new Merchandise_1.Merchandise(2, "mi lanh", "do an", 2000, 200, 4 / 1 / 2023, "an chin"));
+        this.listMerchandise.push(new Merchandise_1.Merchandise(3, "sting", "nuoc", 3000, 300, 4 / 1 / 2023, "do uong"));
+        this.listMerchandise.push(new Merchandise_1.Merchandise(4, "coca", "nuoc", 4000, 400, 5 / 1 / 2023, "nuoc uong"));
+        this.listMerchandise.push(new Merchandise_1.Merchandise(5, "sprite", "nuoc", 5000, 500, 4 / 1 / 2023, "nuoc uong"));
     }
     ManagerMerchandise.prototype.add = function (item) {
         this.listMerchandise.push(item);
